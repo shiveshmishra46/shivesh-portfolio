@@ -24,11 +24,11 @@ export default defineConfig({
         }
       }
     },
-    target: 'es2015', // Better browser support
+    target: 'es2015',
     minify: 'terser',
     terserOptions: {
       compress: {
-        drop_console: true, // Console logs remove kar do production mein
+        drop_console: true,
         drop_debugger: true
       }
     }
